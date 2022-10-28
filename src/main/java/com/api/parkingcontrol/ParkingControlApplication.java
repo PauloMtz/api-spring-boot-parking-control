@@ -1,0 +1,20 @@
+package com.api.parkingcontrol;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RestController;
+
+@SpringBootApplication
+@RestController
+public class ParkingControlApplication {
+
+	// desenvolvimento api
+	// https://www.youtube.com/watch?v=LXRU-Z36GEU
+
+	// autenticação com Spring Security
+	// https://www.youtube.com/watch?v=t6prPki7daU
+
+	public static void main(String[] args) {
+		SpringApplication.run(ParkingControlApplication.class, args);
+	}
+}
