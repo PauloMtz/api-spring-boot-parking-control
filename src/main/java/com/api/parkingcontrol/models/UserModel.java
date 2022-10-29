@@ -20,7 +20,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 @Entity
 @Table(name = "TB_USER")
-public class User implements UserDetails, Serializable {
+public class UserModel implements UserDetails, Serializable {
     private static final long serialVersionUID = 1L;
     
     @Id
